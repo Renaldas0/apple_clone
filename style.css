@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Borel&family=Poppins:wght@400;500&family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar .logo img {
+    height: 16px;
+}
+
+.navbar .nav-icons img {
+    height: 16px;
+    margin-left: 20px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+}
+
+.navbar ul li {
+    margin-left: 40px;
+    font-size: 12px;
+}
+
+.offers {
+    padding-top: 20px;
+    text-align: center;
+    background-color: #4d4d4d;
+    color: #fff;
+    font-size: 15px;
+}
+
+.offers a {
+    color: rgb(0, 140, 255);
+    text-decoration: none;
+}
